@@ -5,7 +5,7 @@ Commercial usage is expressly prohibited. Sonic Retro claims no ownership of any
 You assume any and all responsibility for using this content responsibly. Sonic Retro claims no responsibiliy or warranty.
 
 
-# Sonic 3/Sonic & Knuckles Disassembly
+# Sonic 3/Sonic & Knuckles Disassembly aka what this is based on.
 
 ## The Directory Structure
 
