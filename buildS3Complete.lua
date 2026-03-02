@@ -23,12 +23,12 @@ local common = require "build_tools.lua.common"
 common.convert_pcm_files_in_directory("Sound/PCM")
 common.convert_dpcm_files_in_directory("Sound/DAC")
 
--- Build the ROM.
+-- Build the CUE file and the file it is composed of which is Actually only a ROM as of now, sorry!
 local compression = improved_sound_driver_compression and "kosinski-optimised" or "kosinski"
 common.build_rom_and_handle_failure("sonic3k", "sonic3k", "-D Sonic3_Complete=1", "-p=FF -z=0," .. compression .. ",Size_of_Snd_driver_guess,before -z=1300," .. compression .. ",Size_of_Snd_driver2_guess,before", false, "https://github.com/sonicretro/skdisasm")
 
 -- Correct the ROM's header with a proper checksum and end-of-ROM value.
-common.fix_header("sonic3k.bin")
+common.fix_header("sonicshugeislandadventure.bin")
 
 -- A successful build; we can quit now.
 common.exit()
