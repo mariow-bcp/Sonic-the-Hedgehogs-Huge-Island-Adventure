@@ -90,5 +90,7 @@ for research purposes while work is done using the far more accesible Sonic 1 or
 
 ## To do list:
 [DONE] Create the tracksheet
+
 [NOT DONE] Actually port the game to the Sega CD
+
 [NOT DONE] Actually work on the game.
