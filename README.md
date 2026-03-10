@@ -87,3 +87,8 @@ into account when making any modifications, and require a knowledge of ASM codin
 that great care must be taken in modifying Sonic 3 & Knuckles directly and that you MUST KNOW WHAT YOU ARE DOING to bear fruitful
 results. If you are not prepared for that type of task, then it's recommended that the disassembly and its data be used mostly
 for research purposes while work is done using the far more accesible Sonic 1 or Sonic 2 disassemblies as a base.
+
+## To do list:
+[DONE] Create the tracksheet
+[NOT DONE] Actually port the game to the Sega CD
+[NOT DONE] Actually work on the game.
